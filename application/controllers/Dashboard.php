@@ -63,7 +63,7 @@ class Dashboard extends CI_Controller {
 				26 => 'http://example.com/news/article/2006/06/26/' 
 		);
 		
-		echo $this->calendar->generate ( 2007, 6, $data1 );
+		//echo $this->calendar->generate ( 2007, 6, $data1 );
 		
 		$this->parser->parse ( 'template', $data );
 	}
