@@ -1,0 +1,218 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	padding-top: 50px;
+	background: #666666;
+}
+
+/*custom sidebar css*/
+.sidebar {
+	float: left;
+	display: block;
+	width: 240px;
+}
+
+.sidebar ul {
+	list-style: none;
+	margin: 1.25em 0 2.5em;
+	padding: 0;
+}
+
+.sidebar li {
+	border-bottom: 1px solid #4a4a4a;
+	border-top: 1px solid #858585;
+}
+
+.sidebar li i {
+	margin-right: 1em;
+}
+
+.sidebar a {
+	color: #ffffff;
+	padding: 15px;
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+}
+
+.sub-nav {
+	background: #555;
+}
+
+.sidebar ul ul {
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar ul ul li {
+	padding: 0 0 0 30px;
+}
+
+.caret {
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px dashed;
+	display: inline-block;
+	height: 0;
+	margin-left: 2px;
+	vertical-align: middle;
+	width: 0;
+}
+
+.sidebar li a .caret {
+	display: inline-block;
+	left: 44%;
+	position: relative;
+}
+
+.clearall {
+	clear: both;
+}
+
+.breadcrumb {
+	margin: 0;
+}
+
+/*content*/
+.content {
+	background: #fff none repeat scroll 0 0;
+	margin-left: 1px;
+	margin-right: 0;
+}
+
+.grid-header {
+	background-image: linear-gradient(to bottom, #fafafa 0%, #ebebeb 100%);
+	border: 1px solid #d5d5d5;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	padding: 1px 15px;
+}
+
+.grid-header h3 {
+	color: #555;
+	font-size: 15px;
+	margin-bottom: 13px;
+}
+
+.btn-add {
+	float: right;
+}
+
+.clear-paddin {
+	padding: 0;
+}
+
+.grid-header {
+	margin-bottom: 8px;
+	margin-top: 15px;
+}
+
+.grid-content {
+	margin-top: 5px;
+	border: 1px solid #d5d5d5;
+	padding: 15px;
+}
+
+.table-bordered {
+	margin-top: 12px;
+}
+
+.table-bordered thead tr {
+	background: #444 none repeat scroll 0 0;
+	color: #fff;
+}
+
+.table-action {
+	text-align: center;
+}
+
+.grid-count {
+	float: left;
+	padding-top: 7px;
+}
+
+.bth {
+	overflow: hidden;
+}
+
+.pagination {
+	margin: 0;
+}
+
+.paging-count {
+	text-align: right;
+}
+
+.show-paging {
+	padding-top: 6px;
+}
+
+@media ( min-width : 0) and (max-width: 768px) {
+	.sidebar-collapse {
+		display: none;
+	}
+	.content {
+		margin: 0;
+	}
+	.table-action button:first-child {
+		margin-bottom: 7px;
+	}
+}
+
+@media ( min-width : 768px) and (max-width:1350px) {
+	.table-action button:first-child {
+		margin-bottom: 7px;
+	}
+}
+
+/*dashboard-add.html*/
+.tab-pane {
+	margin-top: 20px;
+}
+
+.form-btn-center {
+	text-align: center;
+}
+
+#contextMenu {
+	position: absolute;
+	display: none;
+}
+
+.btn-add-gallery {
+	margin: 0 0 5px 0;
+}
+
+#gallery {
+	margin: 5px 0 0;
+}
+
+.form-info {
+	margin-top: 10px;
+}
+
+.thumbnail {
+	margin-bottom: 1px;
+}
+
+.modal-body {
+	max-height: calc(100vh - 210px);
+	overflow-y: auto;
+}
+
+.modal-header-primary {
+	color: #fff;
+	padding: 9px 15px;
+	border-bottom: 1px solid #eee;
+	background-color: #428bca;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+/*end dashboard-add.html*/

@@ -84,14 +84,25 @@ defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
+/**
+ * Custom contanct aciton
+ */
+defined('_ADD')  OR define('_ADD','add'); // for action CRUD
+
 
 /**
  * css constanct 
 * */
 defined('CSS_BOOTS_CORE') OR define('CSS_BOOTS_CORE','assets/dist/css/bootstrap.min.css');
+defined('CSS_DASHBOARD') OR define('CSS_DASHBOARD','assets/dist/css/dashboard.css');
+defined('CSS_DATETIMEPICKER') OR define('CSS_DATETIMEPICKER','assets/dist/css/bootstrap-datetimepicker.css');
+defined('CSS_THIRDPARTY') OR define('CSS_THIRDPARTY','assets/thirdparty/gallery/source/jquery.fancybox.css?v=2.1.5');
 
 
 /**
  * 
  * */
 defined('JS_BOOTS_CORE') OR define('JS_BOOTS_CORE','assets/dist/js/bootstrap.min.js');
+defined('DATETIMEPICKER') OR define('DATETIMEPICKER','assets/dist/js/bootstrap-datetimepicker.js');
+defined('TINYMCE') OR define('TINYMCE','assets/dist/js/tinymce/tinymce.min.js');
+defined('MENUSELECTOR') OR define('MENUSELECTOR','assets/dist/js/menuSelector.js');
