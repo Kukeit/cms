@@ -298,26 +298,5 @@
 	<!-- Placed at the end of the document so the pages load faster -->
 	
 
-	<script type="text/javascript">
 
-	$('#datepicker').datepicker();
-	
-		$('#mt-grid').contextmenu({
-			target : '#context-menu',
-			scopes : 'tbody > tr',
-			onItem : function(row, e) {
-				var name = $(row).attr("id");
-				//var name = $(row.children('*')[0]).text();
-				var action = $(e.target).text();
-				//alert('You right clicked on ' + name + '\'s row and selected menu item "' + action  + '".');
-
-				console.log("action name:" + action);
-				if (action === "Open") {
-					window.open("./dashboard-view.php?cid=" + name, "_top");
-				}else if(action==="Edit"){
-					window.open("./dashboard-edit.html?cid=" + name, "_top");
-				}
-			}
-		});
-	</script>
 

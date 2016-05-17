@@ -178,8 +178,8 @@
 											<td>
 												<div class="thumbnail">
 													<div class="thumbnail-view">
-														<a class="fancybox-thumbs" href="../img/blur-lg.jpg"><img
-															src="../img/blur-lg.jpg" width="120" alt="" /></a>
+														<a class="fancybox-thumbs" href="<?php echo base_url();?>assets/img/blur-lg.jpg"><img
+															src="<?php echo base_url();?>assets/img/blur-lg.jpg" width="120" alt="" /></a>
 													</div>
 												</div>
 											</td>
@@ -195,8 +195,8 @@
 											<td>
 												<div class="thumbnail">
 													<div class="thumbnail-view">
-														<a class="fancybox-thumbs" href="../img/blur-lg.jpg"><img
-															src="../img/blur-lg.jpg" width="120" alt="" /></a>
+														<a class="fancybox-thumbs" href="<?php echo base_url();?>assets/img/blur-lg.jpg"><img
+															src="<?php echo base_url();?>assets/img/blur-lg.jpg" width="120" alt="" /></a>
 													</div>
 												</div>
 											</td>
@@ -633,6 +633,21 @@
 	</div>
 </div>
 
+
+	
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+<script type="text/javascript" src="<?php echo base_url();?>assets/dist/js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/dist/js/tinymce/tinymce.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/dist/js/tinycode.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/dist/js/menuSelector.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/thirdparty/gallery/source/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/thirdparty/gallery/source/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/thirdparty/gallery/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/thirdparty/gallery/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/thirdparty/gallery/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+
 <script type="text/javascript">
 		$('#myTabs a').click(function(e) {
 			e.preventDefault()
@@ -807,7 +822,4 @@
 		});
 		/*end gallery*/
 	</script>
-	
-	<!-- Bootstrap core JavaScript
-    ================================================== -->
 

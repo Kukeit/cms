@@ -15,6 +15,6 @@ tinymce.init({
                 { title: 'Test template 2', content: 'Test 2' }
               ],
               content_css: [
-                '../js/tinymce/css/codepen.min.css'
+                './js/tinymce/css/codepen.min.css'
               ]
       });
