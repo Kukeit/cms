@@ -640,35 +640,28 @@
 <!-- Bootstrap core JavaScript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>
-		window.jQuery
-				|| document
-						.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
-	</script>
-<script type="text/javascript" src="../js/bootstrap.min.js"></script>
-<script type="text/javascript" src="../js/bootstrap-datetimepicker.js"></script>
 
-<script type="text/javascript" src='../js/tinymce/tinymce.min.js'></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/dist/js/bootstrap-datetimepicker.js"></script>
 
-<script type="text/javascript" src='../js/tinycode.js'></script>
-<script type="text/javascript" src="../js/menuSelector.js"></script>
+<script type="text/javascript" src='<?php echo base_url();?>assets/dist/js/tinymce/tinymce.min.js'></script>
+
+<script type="text/javascript" src='<?php echo base_url();?>assets/dist/js/tinycode.js'></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/dist/js/menuSelector.js"></script>
 
 <!--javacript for gallery-->
 <!-- Add mousewheel plugin (this is optional) -->
 <script type="text/javascript"
-	src="../thirdparty/gallery/source/jquery.mousewheel-3.0.6.pack.js"></script>
+	src="<?php echo base_url();?>assets/thirdparty/gallery/source/jquery.mousewheel-3.0.6.pack.js"></script>
 <!-- Add fancyBox main JS and CSS files -->
 <script type="text/javascript"
-	src="../thirdparty/gallery/source/jquery.fancybox.js?v=2.1.5"></script>
+	src="<?php echo base_url();?>assets/thirdparty/gallery/source/jquery.fancybox.js?v=2.1.5"></script>
 <script type="text/javascript"
-	src="../thirdparty/gallery/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	src="<?php echo base_url();?>assets/thirdparty/gallery/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
 <script type="text/javascript"
-	src="../thirdparty/gallery/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	src="<?php echo base_url();?>assets/thirdparty/gallery/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 <!-- Add Media helper (this is optional) -->
 <script type="text/javascript"
-	src="../thirdparty/gallery/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+	src="<?php echo base_url();?>assets/thirdparty/gallery/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
 <!--<script src="../../assets/js/vendor/holder.min.js"></script>-->
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->

@@ -14,19 +14,14 @@
 
 <!-- Custom styles for this template -->
 <link href="<?php echo base_url().CSS_DASHBOARD;?>" rel="stylesheet">
-<link href="<?php echo base_url().CSS_DATETIMEPICKER;?>" rel="stylesheet">
+<!-- <link href="<?php echo base_url().CSS_DATETIMEPICKER;?>" rel="stylesheet"> -->
 
-<!--css for gallery-->
-<link href="<?php echo base_url().CSS_THIRDPARTY;?>" rel="stylesheet" media="screen">
-<!-- Add Button helper (this is optional) -->
-<link
-	href="../thirdparty/gallery/source/helpers/jquery.fancybox-buttons.css?v=1.0.5"
-	rel="stylesheet">
-
-<!-- Add Thumbnail helper (this is optional) -->
-<link
-	href="../thirdparty/gallery/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7"
-	rel="stylesheet">
+<?php if(isset($css_entries)){?>
+{css_entries}
+<link href="<?php echo base_url()?>{css}" rel="stylesheet">
+{/css_entries}
+<?php }?>
+	
 <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 <!--<script src="../../assets/js/ie-emulation-modes-warning.js"></script>-->
@@ -43,19 +38,17 @@
 	<script
 		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script>
-		window.jQuery
-				|| document
-						.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
-	</script>
 	<script src="<?php echo base_url().JS_BOOTS_CORE;?>" type="text/javascript"></script>
-	<script src="<?php echo base_url().DATETIMEPICKER;?>" type="text/javascript"></script>
-	<script src="<?php echo base_url().TINYMCE;?>" type="text/javascript"></script>
-	<script src="<?php echo base_url().MENUSELECTOR;?>" type="text/javascript"></script>
+
 
 	<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
 	<!--<script src="../../assets/js/vendor/holder.min.js"></script>-->
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	<!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+<?php if(isset($js_entries)){?>
+	{js_entries}
+		<script src="<?php echo base_url()?>{js}" type="text/javascript"></script>
+	{/js_entries}
+<?php }?>
 </body>
 </html>

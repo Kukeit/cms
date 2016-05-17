@@ -45,19 +45,19 @@
 						</thead>
 						<!-- <tbody>
 
-						<?php foreach($list['all'] as $val ){?>
-							<tr id="<?php echo $val['ID'];?>">
+						<?php //foreach($list['all'] as $val ){?>
+							<tr id="<?php //echo $val['ID'];?>">
 								<td><input type="checkbox" value=""></td>
-								<td><?php echo $val['ID'];?></td>
+								<td><?php //echo $val['ID'];?></td>
 								<td style="text-align: center;"><img src="../img/_thumbnail.png" />
 								</td>
-								<td><?php echo $val['post_title'];?></td>
-								<td><?php echo $val['post_date'];?></td>
-								<td><?php echo $val['post_modified'];?></td>
-								<td><?php echo $val['post_status'];?></td>
-								<td><?php echo $val['post_name'];?></td>
+								<td><?php //echo $val['post_title'];?></td>
+								<td><?php //echo $val['post_date'];?></td>
+								<td><?php //echo $val['post_modified'];?></td>
+								<td><?php //echo $val['post_status'];?></td>
+								<td><?php //echo $val['post_name'];?></td>
 							</tr>
-							<?php }?>
+							<?php //}?>
 
 						</tbody> -->
 					</table>

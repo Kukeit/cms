@@ -97,6 +97,10 @@ defined('CSS_BOOTS_CORE') OR define('CSS_BOOTS_CORE','assets/dist/css/bootstrap.
 defined('CSS_DASHBOARD') OR define('CSS_DASHBOARD','assets/dist/css/dashboard.css');
 defined('CSS_DATETIMEPICKER') OR define('CSS_DATETIMEPICKER','assets/dist/css/bootstrap-datetimepicker.css');
 defined('CSS_THIRDPARTY') OR define('CSS_THIRDPARTY','assets/thirdparty/gallery/source/jquery.fancybox.css?v=2.1.5');
+defined('CSS_fANCYBOX_BUTTON') OR define('CSS_fANCYBOX_BUTTON','assets/thirdparty/gallery/source/helpers/jquery.fancybox-buttons.css?v=1.0.5');
+defined('CSS_fANCYBOX_THUMBS') OR define('CSS_fANCYBOX_THUMBS','assets/thirdparty/gallery/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7');
+
+
 
 
 /**
